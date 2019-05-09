@@ -62,7 +62,7 @@ class Fist(pygame.sprite.Sprite):
         pos = pygame.mouse.get_pos()
         self.rect.midtop = pos
         if self.punching:
-            self.rect.move_ip(5, 10)
+            self.rect.move_ip(10, 20)
 
     def punch(self, target):
         "returns true if the fist collides with the target"
@@ -130,7 +130,6 @@ def main():
        a loop until the function returns."""
 #Initialize Everything
     pygame.init()
-    pygame.mixer.init()
     screen = pygame.display.set_mode((800, 450))
     pygame.display.set_caption('Monkey Fever')
     pygame.mouse.set_visible(0)
