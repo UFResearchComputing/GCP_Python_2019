@@ -1,6 +1,7 @@
 # Part 3 of the chimp.py tutorial
 
-[Continued from part 2](Chimp_part_2.md)
+[Continued from part 2](Chimp_part_2.md) | [Go to the start](Chimp.md)
+
 
 ## Classes
 

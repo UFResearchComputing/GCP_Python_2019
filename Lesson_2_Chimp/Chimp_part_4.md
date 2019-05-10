@@ -1,4 +1,5 @@
 # Part 4 of the chimp.py tutorial
+
 [Continued from part 3](Chimp_part_3.md) | [Go to the start](Chimp.md)
 
 ## The `main()` function
@@ -90,4 +91,4 @@ Now we can finally get out game objects ready! The clock is used to control the 
 
 The last line, `allsprites = pygame.sprite.RenderPlain((fist, chimp))` creates a Sprites group called a RenderPlain which can draw our sprites (the fist and chimp) onto the screen.
 
-[Continue in part 5](Chimp_part_5.md)
+[Continue to part 5](Chimp_part_5.md)

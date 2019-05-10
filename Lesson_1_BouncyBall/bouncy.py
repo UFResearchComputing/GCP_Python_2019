@@ -6,12 +6,12 @@ import pygame
 pygame.init()
 
 # Set window width and height based on display size
-width = pygame.display.Info().current_w
-height = pygame.display.Info().current_h
+width = int((pygame.display.Info().current_w)/2)
+height = int((pygame.display.Info().current_h)/2)
 size = width, height
 
 # Set speed of bouncing ball--how far the ball move should in each frame
-speed = [10, 10]
+speed = [2, 2]
 
 # Define black with RBG settings of 0, 0, 0
 black = 0, 0, 0  

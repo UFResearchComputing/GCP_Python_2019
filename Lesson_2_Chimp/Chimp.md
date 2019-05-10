@@ -7,7 +7,7 @@ Matt Gitzendanner
 
 ## Introduction
 
-This tutorial is adapted from [this PyGame tutorial](https://www.pygame.org/docs/tut/ChimpLineByLine.html). I was not able to find the original images used, so I grabbed some and adjusted the game board a bit to fit.
+This tutorial is adapted from [this PyGame tutorial](https://www.pygame.org/docs/tut/ChimpLineByLine.html). I was not able to find the original images or sounds used, so I grabbed some and adjusted the game screen a bit to fit.
 
 Start by running the chimp.py program in your Anaconda Prompt type: `python chimp.py`
 

@@ -1,7 +1,8 @@
 
 # Part 2 of the chimp.py tutorial
 
-[Continued from part 1](chimp.md)
+[Continued from part 1](chimp.md) | [Go to the start](Chimp.md)
+
 
 ## The `if not` statements
 
@@ -127,4 +128,4 @@ This is fairly similar to what we did for the image.
 
 We will cover the `class` bit in the next section, but for now, just think of this as handling the case where the `pygame.mixer` module did not load properly. This just creates a silent "sound" to have something to work with.
 
-[Continue in part 3](Chimp_part_3.md)
+[Continue to part 3](Chimp_part_3.md)
