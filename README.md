@@ -8,14 +8,14 @@ The easiest way to run the first two lessons is to use [Anaconda](https://www.an
 
 ### Cloning this site onto your flash drive
 
-Clone this site onto your flash drive. Click the **Clone or download** button and then the copy button to copy the link into your clipboard. ![Git Clone image](assets\notebook_images\Git_clone.png)
+Clone this site onto your flash drive. Click the **Clone or download** button and then the copy button to copy the link into your clipboard. ![Git Clone image](assets/notebook_images/Git_clone.png)
 
-Open Git bash from the Winows > Git > Git bash menu ![Opening Git Bash](assets\notebook_images\Git_Bash_Launch.png)
+Open Git bash from the Winows > Git > Git bash menu ![Opening Git Bash](assets/notebook_images/Git_Bash_Launch.png)
 
 Your USB flash drive should be drive D:. If so, in the Git Bash window, type: `cd d:`
 Then type `git clone ` and right click to paste the link (you CANNOT use control-V here to paste).
 Then hit Enter. Your window should look like this.
-![Git bash clone screenshot](assets\notebook_images\Git_Bash_Clone.png)
+![Git bash clone screenshot](assets/notebook_images/Git_Bash_Clone.png)
 
 
 ### Learning Python Through `pygame`
@@ -24,7 +24,7 @@ Then hit Enter. Your window should look like this.
 This is the first lesson and teaches many basic Python programming concepts through a simple bouncing ball "game". 
 
 This lesson uses a Jupyter notebook. Open the Anaconda Prompt from Windows > Anaconda > Anaconda Prompt
-![Launch Anaconda Prompt](assets\notebook_images\Anaconda_Prompt_Launch.png)
+![Launch Anaconda Prompt](assets/notebook_images/Anaconda_Prompt_Launch.png)
 
 Once the terminal opens, we need to navigate to your cloned repository on the USB drive.
 
