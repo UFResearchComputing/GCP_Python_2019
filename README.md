@@ -4,7 +4,7 @@ This repository is for the [Gator Computing Program 2019](https://www.rc.ufl.edu
 
 GCP is run by Research Computing.
 
-These lessons were written by Matt Gitzendanner.
+Lessons 1 & 2 were written by Matt Gitzendanner.
 
 ## Intro
 
