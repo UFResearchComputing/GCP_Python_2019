@@ -37,9 +37,9 @@ Type: `jupyter lab`
 
 Once your web browser opens, click on the Bouncy_Intro.ipynb. 
 
-### [Lesson 2: Chimp Game](Lesson_2_Chimp\Readme.md) 
+### [Lesson 2: Chimp Game](Lesson_2_Chimp/Readme.md) 
 The second lesson is a series of markdown pages that lead you through the inner workings of a simple game.
 
-[Start here](Lesson_2_Chimp\Readme.md) 
+[Start here](Lesson_2_Chimp/Readme.md) 
 
 You will want to have one window open with these pages and one window open with [the code](Lesson_2_Chimp/chimp.py) to follow along.
