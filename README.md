@@ -8,31 +8,30 @@ The easiest way to run the first two lessons is to use [Anaconda](https://www.an
 
 ### Cloning this site onto your flash drive
 
-Clone this site onto your flash drive. Click the **Clone or download** button and then the copy button to copy the link into your clipboard. ![Git Clone image](assets/notebook_images/Git_clone.png)
-
-Open Git bash from the Winows > Git > Git bash menu ![Opening Git Bash](assets/notebook_images/Git_Bash_Launch.png)
-
-Your USB flash drive should be drive D:. If so, in the Git Bash window, type: `cd d:`
-Then type `git clone ` and right click to paste the link (you CANNOT use control-V here to paste).
-Then hit Enter. Your window should look like this.
-![Git bash clone screenshot](assets/notebook_images/Git_Bash_Clone.png)
+ Steps in cloning a GitHub repository to your computer| Screenshot guidance
+-------|-------
+Clone this site onto your flash drive. Click the **Clone or download** button and then the copy button to copy the link into your clipboard. | <img alt="Git Clone image" src="assets/notebook_images/Git_clone.png"  width=250>
+Open Git bash from the ***Windows > Git > Git bash*** menu | <img alt="Opening Git Bash" src="assets/notebook_images/Git_Bash_Launch.png" width="200">
+Your USB flash drive should be drive D:. If so, in the Git Bash window, type: `cd d:` and hit Enter<br><br>Then type `git clone `, **followed by a space**, and right click to paste the link (you CANNOT use control-V here to paste). <br><br>Then hit Enter. | <img alt="Git bash clone screenshot" src="assets/notebook_images/Git_Bash_Clone.png">
 
 
-### Learning Python Through `pygame`
+## Learning Python Through `pygame`
 
-#### [Lesson 1: Bouncy Ball](Lesson_1_BouncyBall/Bouncy_Intro.ipynb) 
+### [Lesson 1: Bouncy Ball](Lesson_1_BouncyBall/Bouncy_Intro.ipynb) 
+
 This is the first lesson and teaches many basic Python programming concepts through a simple bouncing ball "game". 
 
-This lesson uses a Jupyter notebook. Open the Anaconda Prompt from Windows > Anaconda > Anaconda Prompt
-![Launch Anaconda Prompt](assets/notebook_images/Anaconda_Prompt_Launch.png)
+<img alt="Launch Anaconda Prompt" src="assets/notebook_images/Anaconda_Prompt_Launch.png" width=200 align="right">This lesson uses a Jupyter notebook. Open the Anaconda Prompt from the ***Windows > Anaconda > Anaconda Prompt*** menu.
 
-Once the terminal opens, we need to navigate to your cloned repository on the USB drive.
+Once the Anaconda opens, we need to navigate to your cloned repository on the USB drive.
 
 Type: `d:`
-Type: `cd GCP_Python_2019/Lesson_1_BouncyBall`
-Type: `jupyter notebook`
 
-Once your web browser opens, click on the Bouncy_Intro.ipynb.
+Type: `cd GCP_Python_2019/Lesson_1_BouncyBall`
+
+Type: `jupyter lab`
+
+Once your web browser opens, click on the Bouncy_Intro.ipynb. 
 
 #### [Lesson 2: Chimp Game](Lesson_2_Chimp\chimp.py) 
 The second lesson is a series of pages that lead you through the inner workings of a simple game.
