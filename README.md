@@ -1,8 +1,12 @@
 # GCP_Python_2019
 
-This repository is for the Gator Computing Program 2019 Python lessons at the University of Florida Research Computing.
+This repository is for the [Gator Computing Program 2019](https://www.rc.ufl.edu/about/gcp/) Python lessons at the University of Florida.
 
-## Lessons
+GCP is run by Research Computing.
+
+These lessons were written by Matt Gitzendanner.
+
+## Intro
 
 The easiest way to run the first two lessons is to use [Anaconda](https://www.anaconda.com/) on your computer. In addition to Anaconda, install [pygame](https://www.pygame.org/). The easiest way to do that is to use your terminal (MacOS) or Anaconda Prompt (Windows) to run `pip install pygame`.
 
@@ -33,6 +37,9 @@ Type: `jupyter lab`
 
 Once your web browser opens, click on the Bouncy_Intro.ipynb. 
 
-#### [Lesson 2: Chimp Game](Lesson_2_Chimp\chimp.py) 
-The second lesson is a series of pages that lead you through the inner workings of a simple game.
+### [Lesson 2: Chimp Game](Lesson_2_Chimp\Readme.md) 
+The second lesson is a series of markdown pages that lead you through the inner workings of a simple game.
 
+[Start here](Lesson_2_Chimp\Readme.md) 
+
+You will want to have one window open with these pages and one window open with [the code](Lesson_2_Chimp/chimp.py) to follow along.
