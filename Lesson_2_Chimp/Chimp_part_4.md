@@ -1,6 +1,6 @@
 # Part 4 of the chimp.py tutorial
 
-[Continued from part 3](Chimp_part_3.md) | [Go to the start](Chimp.md)
+[Continued from part 3](Chimp_part_3.md) | [Go to the start](Readme.md)
 
 ## The `main()` function
 
@@ -11,12 +11,11 @@ As you might expect, the main function takes care of the main part of the progra
     main()
 ```
 
-This is Python's way of allowing you to determine if someone ran your program or if they imported it into another program. We may decide to make a new game and in making that, we may realize that we want to load images and sounds and have a fist, but maybe this time we want to turn this into a two player boxing match. While it would probably be easier in this little example to adapt the code for my new game, we *could* do `import chimp` or `from chimp import load_image, load_sound`, etc.
+This is Python's way of allowing you to determine if someone ran your program or if they imported it into another program. We may decide to make a new game and in making that, we may realize that we want to load images and sounds and have a fist that punches, but maybe this time we want to turn this into a two player boxing match. While it would probably be easier in this little example to adapt the code for my new game, we *could* do `import chimp` or `from chimp import load_image, load_sound`, etc.
 
-By using the `if __name__ == '__main__':` line, doing this would not start a chimp game, but only import the functions.
+By using the `if __name__ == '__main__':` line, doing this would not start a chimp game, but only import the functions. If we just put the part of the code in the `main()` function after defining all the other functions and classes, once we import chimp, the chimp game would start, not what we want in that case.
 
 How this works is if the program is run from the command line, the variable `__name__` has the value of `__main__`. Again, the underscores are there to indicate these should not be messed with directly, let Python manage their values.
-
 
 ## The parts of the `main()` function
 
@@ -28,10 +27,10 @@ How this works is if the program is run from the command line, the variable `__n
     pygame.mouse.set_visible(0)
 ```
 
-`pygame.init()` makes sure everything is initialized correctly, them we set a screen dimension of 800 (wide) by 450 (tall) pixels, set a window caption and turn off the mouse cursor when in the window so that the fist is moving, not the cursor.
+`pygame.init()` makes sure everything is initialized correctly, then we set a screen dimension of 800 (wide) by 450 (tall) pixels, set a window caption and turn off the mouse cursor when in the window so that the fist is moving, not the cursor.
 
 ```python
-#Create The Backgound
+#Create The Background
     background = pygame.Surface(screen.get_size())
     background = background.convert()
     background.fill((250, 250, 250))
@@ -76,7 +75,7 @@ Quoting the [original tutorial](https://www.pygame.org/docs/tut/ChimpLineByLine.
 This is a bit unclear, but [this stackoverflow post](https://stackoverflow.com/questions/29135147/what-do-hwsurface-and-doublebuf-do) explains a bit more about double-buffered surfaces:
 >Double-buffering, as the description for the tag mentions, is using a separate block of memory to apply all the draw routines and then copying that block (buffer) to video memory as a single operation. Failure to do this can lead to graphical artifacts. A simple example could be flickering of the scene caused by part of background being drawn right before the video refreshes and then other parts afterwards (so they aren't shown until the next refresh).
 
-The post continues with more info, but that's the main bit to understand here.
+The post continues with more info, but that's the main bit to understand for our purposes.
 
 ```python
 #Prepare Game Objects
@@ -87,7 +86,8 @@ The post continues with more info, but that's the main bit to understand here.
     fist = Fist()
     allsprites = pygame.sprite.RenderPlain((fist, chimp))
 ```
-Now we can finally get out game objects ready! The clock is used to control the game frame refresh rate. Then we load the sounds and images.
+
+Now we can finally get our game objects ready! The clock is used to control the game frame refresh rate. Then we load the sounds and images.
 
 The last line, `allsprites = pygame.sprite.RenderPlain((fist, chimp))` creates a Sprites group called a RenderPlain which can draw our sprites (the fist and chimp) onto the screen.
 

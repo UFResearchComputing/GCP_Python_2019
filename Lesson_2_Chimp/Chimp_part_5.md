@@ -1,5 +1,6 @@
 # Part 5 of the chimp.py tutorial
-[Continued from part 4](Chimp_part_4.md) | [Go to the start](Chimp.md)
+
+[Continued from part 4](Chimp_part_4.md) | [Go to the start](Readme.md)
 
 ## The main loop of the program
 
@@ -11,6 +12,7 @@ going = True
 while going:
     clock.tick(60)
 ```
+
 The `clock.tick(60)` limits the game to 60 frames per second at most.
 
 ```python
@@ -29,6 +31,7 @@ for event in pygame.event.get():
     elif event.type == MOUSEBUTTONUP:
         fist.unpunch()
 ```
+
 Quoting from the [original tutorial](https://www.pygame.org/docs/tut/ChimpLineByLine.html):
 >First we get all the available Events from pygame and loop through each of them. The first two tests see if the user has quit our game, or pressed the escape key. In these cases we just return from the main() function and the program cleanly ends.
 >
