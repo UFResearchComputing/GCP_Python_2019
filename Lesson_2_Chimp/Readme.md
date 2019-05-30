@@ -45,11 +45,11 @@ from pygame.compat import geterror
 
 ### `import module`
 
-For example with `import os`, all of the functions of the "os" module are available, and are accessed using os.*function()*, for example: `os.path.join(os.pardir, "assets")`. That tells Python to look in the `os` module for the `path` function and within that, `join`.
+By writing `import os`, all of the functions of the "os" module are available, and are accessed using os.*function()*, for example: `os.path.join(os.pardir, "assets")`. That tells Python to look in the `os` module for the `path` function and within that, `join`.
 
 ### `import module as md`
 
-For os, things are easy, but some modules have longer names, so we us the `import as` syntax, where we can rename the module with a shorter name. For example many tutorials will use `import pygame as pg` since it is easier to type "`pg.display.flip()`" than "`pygame.display.flip()`"--coders are lazy! :stuck_out_tongue:
+For os, things are easy, but some modules have longer names, so we use the `import as` syntax, where we can rename the module with a shorter name. For example, many tutorials will use `import pygame as pg` since it is easier to type "`pg.display.flip()`" than "`pygame.display.flip()`"--coders are lazy! :stuck_out_tongue:
 
 ### `from module import function`
 

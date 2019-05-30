@@ -5,7 +5,7 @@
 
 ## The `if not` statements
 
-We looked at `if` statements in the bouncy.py exercise. These lines are an example of a shortened syntax for an `if` statement. 
+We looked at `if` statements in the bouncy.py exercise. These lines are an example of a shortened syntax for an `if` statement.
 
 ```python
 if not pygame.font: print ('Warning, fonts disabled')
@@ -67,7 +67,7 @@ def load_image(name, colorkey=None):
     return image, image.get_rect()
 ```
 
-This function takes as input the name of an image file and the colorkey, which has the default value of None. This means that if we pass two values in the call to `load_image()`, the second value will be used for colorkey, if we only pass one, then the defualt "None" is used. We will come back to this in a bit.
+This function takes as input the name of an image file and the colorkey, which has the default value of None. This means that if we pass two values in the call to `load_image()`, the second value will be used for colorkey, if we only pass one, then the default "None" is used. We will come back to this in a bit.
 
 Think about your `add_two` function. How could you modify this so that a user could pass in 2 or 3 numbers to be added together? Make that change and test it.
 

@@ -9,7 +9,7 @@ To understand classes, we need to learn a little about what is referred to as "O
 
 A class is used to create the definition of some concept in the program and then create individual objects or instances of that class. By making classes, concepts within a program can be packaged and worked on in isolation of the rest of the program.
 
-Think about a class to work with a table. <img alt="Table image" src="../assets/notebook_images/table.jpg" width=250 align="right">. This class would have ways of describing the table, how many legs it has, what material it is made out of, how many people can sit at it, etc. In our program, we could define the class, and then create an individual object for each table we need to keep track of.
+Think about a class to work with a table. <img alt="Table image" src="../assets/notebook_images/table.jpg" width=250 align="right"> This class would have ways of describing the table, how many legs it has, what material it is made out of, how many people can sit at it, etc. In our program, we could define the class, and then create an individual object for each table we need to keep track of.
 
 In addition to holding information (data) about each object, the class can have functions to work on the object. These are called **methods**. For example, there may be a method to set the table. Or a method to arrange the chairs (and the chairs would be objects defined by a different class, the chair class).
 
@@ -39,7 +39,7 @@ One cool thing is that we don't need to start from scratch every time we write a
 
 Rather than get into the details of inheritance here, if you want more details, take a look at the example in the [Python for Everybody](https://www.py4e.com/html3/14-objects) book or this example from Digital Ocean on [Understanding Class Inheritance in Python 3](https://www.digitalocean.com/community/tutorials/understanding-class-inheritance-in-python-3). 
 
-For what we are doing, the main thing to understand is that in the Fist class we will look at next, by putting `pygame.sprite.Sprite` in parentheses, the First class inherits, or has all the properties of the `pygame.sprite.Sprite` class, plus anything we add to it in the class definition.
+For what we are doing, the main thing to understand is that in the Fist class we will look at next, by putting `pygame.sprite.Sprite` in parentheses, the Fist class inherits, or has all the properties of the `pygame.sprite.Sprite` class, plus anything we add to it in the class definition.
 
 ## The `Fist` class
 

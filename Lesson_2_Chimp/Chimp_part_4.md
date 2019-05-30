@@ -13,9 +13,11 @@ As you might expect, the main function takes care of the main part of the progra
 
 This is Python's way of allowing you to determine if someone ran your program or if they imported it into another program. We may decide to make a new game and in making that, we may realize that we want to load images and sounds and have a fist that punches, but maybe this time we want to turn this into a two player boxing match. While it would probably be easier in this little example to adapt the code for my new game, we *could* do `import chimp` or `from chimp import load_image, load_sound`, etc.
 
-By using the `if __name__ == '__main__':` line, doing this would not start a chimp game, but only import the functions. If we just put the part of the code in the `main()` function after defining all the other functions and classes, once we import chimp, the chimp game would start, not what we want in that case.
+By using the `if __name__ == '__main__':` line, importing chimp will not start the chimp game, but only import the functions. However, if we had just put the part of the code in the `main()` function after defining all the other functions and classes, once we import chimp, the chimp game would start, not what we want in that case.
 
-How this works is if the program is run from the command line, the variable `__name__` has the value of `__main__`. Again, the underscores are there to indicate these should not be messed with directly, let Python manage their values.
+How this works is if the program is run from the command line (like we do when we type python chimp.py), the variable `__name__` has the value of `__main__`. Since that makes the `if __name__ == '__main__':` statement True, the main() function is run. If we had imported chimp, then `__name__` would have some other value and main() would not run.  
+
+As we saw before, the underscores in the `__name__` and `__main__` are there to indicate these should not be messed with directly, let Python manage their values.
 
 ## The parts of the `main()` function
 
