@@ -16,7 +16,7 @@ The easiest way to run the first two lessons is to use [Anaconda](https://www.an
 -------|-------
 Clone this site onto your flash drive. Click the **Clone or download** button and then the copy button to copy the link into your clipboard. | <img alt="Git Clone image" src="assets/notebook_images/Git_clone.png"  width=250>
 Open Git bash from the ***Windows > Git > Git bash*** menu | <img alt="Opening Git Bash" src="assets/notebook_images/Git_Bash_Launch.png" width="200">
-Your USB flash drive should be drive D:. If so, in the Git Bash window, type: `cd d:` and hit Enter<br><br>Then type `git clone `, **followed by a space**, and right click to paste the link (you CANNOT use control-V here to paste). <br><br>Then hit Enter. | <img alt="Git bash clone screenshot" src="assets/notebook_images/Git_Bash_Clone.png">
+Your USB flash drive should be drive E:. If so, in the Git Bash window, type: `cd e:` and hit Enter<br><br>Then type `git clone `, **followed by a space**, and right click to paste the link (you CANNOT use control-V here to paste). <br><br>Then hit Enter. | <img alt="Git bash clone screenshot" src="assets/notebook_images/Git_Bash_Clone.png">
 
 
 ## Learning Python Through `pygame`
@@ -29,7 +29,7 @@ This is the first lesson and teaches many basic Python programming concepts thro
 
 Once the Anaconda opens, we need to navigate to your cloned repository on the USB drive.
 
-Type: `d:`
+Type: `e:`
 
 Type: `cd GCP_Python_2019/Lesson_1_BouncyBall`
 

@@ -10,7 +10,7 @@ width = int((pygame.display.Info().current_w)/2)
 height = int((pygame.display.Info().current_h)/2)
 size = width, height
 
-# Set speed of bouncing ball--how far the ball move should in each frame
+# Set speed of bouncing ball--how far the ball should move in each frame
 speed = [2, 2]
 
 # Define black with RBG settings of 0, 0, 0

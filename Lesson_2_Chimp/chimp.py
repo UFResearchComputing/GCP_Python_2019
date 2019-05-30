@@ -134,7 +134,7 @@ def main():
     pygame.display.set_caption('Monkey Fever')
     pygame.mouse.set_visible(0)
 
-#Create The Backgound
+#Create The Background
     background = pygame.Surface(screen.get_size())
     background = background.convert()
     background.fill((250, 250, 250))
