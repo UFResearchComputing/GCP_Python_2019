@@ -17,7 +17,7 @@ Open the Anaconda Prompt and change directories to the Lesson_2_Chimp directory.
 
 In your Anaconda Prompt, change to your USB drive with the cloned repository and run the chimp.py program:
 
-Type: `d:` (Or the drive letter of the drive with the repository.)
+Type: `e:` (Or the drive letter of the drive with the repository.)
 
 Type: `cd GCP_Python_2019/Lesson_2_Chimp`
 
