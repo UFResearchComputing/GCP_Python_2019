@@ -43,3 +43,7 @@ The second lesson is a series of markdown pages that lead you through the inner 
 [Start here](Lesson_2_Chimp/Readme.md) 
 
 You will want to have one window open with these pages and one window open with [the code](Lesson_2_Chimp/chimp.py) to follow along.
+
+### [Data Analysis](data_analysis)
+
+The lessons for the data analysis tutorial are in the [data_analysis] folder.
