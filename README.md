@@ -46,4 +46,4 @@ You will want to have one window open with these pages and one window open with 
 
 ### [Data Analysis](data_analysis)
 
-The lessons for the data analysis tutorial are in the [data_analysis] folder.
+The lessons for the data analysis tutorial are in the (data_analysis) folder.
